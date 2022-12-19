@@ -9,7 +9,7 @@ if not os.path.exists(path):
 if os.path.exists(path):
     try:
         convert(parent_dir,path)
-        input('Task Completed')
+        print('Task Completed')
         os.system('pause')
     except:
         print('Bad file: one of the files seems to be corrupted')
